@@ -1,4 +1,3 @@
-
 .PHONY: install
 install:
 	go mod tidy
@@ -6,7 +5,3 @@ install:
 .PHONY: test
 test: install
 	go test ./... -race
-
-.PHONY: run
-run:
-	go run ./...
