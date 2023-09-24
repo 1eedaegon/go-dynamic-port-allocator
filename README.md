@@ -9,6 +9,12 @@ A Go library for allocate ports, dynamically.
 ## Example
 
 ```go
+import (
+	...
+	port "github.com/1eedaegon/go-dynamic-port-allocator"
+	...
+)
+
 ports := port.Get(3)
 // ports is something like []int{10000, 10001, 10002}
 ```
@@ -16,6 +22,12 @@ ports := port.Get(3)
 Or
 
 ```go
+import (
+	...
+	port "github.com/1eedaegon/go-dynamic-port-allocator"
+	...
+)
+
 ports := port.GetS(3)
 // ports is something like []string{"10000", "10001", "10002"}
 ```
