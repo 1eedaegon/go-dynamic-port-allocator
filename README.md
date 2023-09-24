@@ -1,7 +1,8 @@
 # go-dynamic-port-allocator
 
 [![Go](https://pkg.go.dev/badge/github.com/1eedaegon/go-dynamic-port-allocator.svg)](https://pkg.go.dev/github.com/1eedaegon/go-dynamic-port-allocator)
-![workflow](https://github.com/1eedaegon/go-dynamic-port-allocator/actions/workflows/go.yml/badge.svg)
+[![CI](https://github.com/1eedaegon/go-dynamic-port-allocator/actions/workflows/go.yml/badge.svg)](https://github.com/1eedaegon/go-dynamic-port-allocator/actions/workflows/go.yml)
+[![CodeQL](https://github.com/1eedaegon/go-dynamic-port-allocator/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/1eedaegon/go-dynamic-port-allocator/actions/workflows/codeql.yml)
 
 A Go library for allocate ports, dynamically.
 
